@@ -31,8 +31,8 @@ public class Frog {
     }
 
     public void jump(int times) {
-        // We're going to need a random number generator, so we just construct it
-        // here for easy reuse.
+        // We're going to need a random number generator, so we just construct
+        // it here for easy reuse.
         // Vars are all final because I don't need to change them
         final var rand = new Random();
         final var jumps = new ArrayList<Integer>();
