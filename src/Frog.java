@@ -1,6 +1,8 @@
 import java.util.ArrayList;
 import java.util.Random;
 
+// Suppress the unused methods warning since we never use our setters.
+@SuppressWarnings("unused")
 public class Frog {
     // The name of the frog.
     private String name;
